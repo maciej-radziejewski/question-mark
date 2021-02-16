@@ -36,12 +36,12 @@ Splitting a question to several questions will not do if they are to be chosen a
 
 There exist formats such as Aiken (https://docs.moodle.org/310/en/Aiken_format) and GIFT (https://docs.moodle.org/310/en/GIFT_format) that aim to remedy some of the above problems, but not all of them. Aiken is very simple, but, at the time of this writing, it seems to be limited to multiple-choice and True/False questions. GIFT, though more versatile, is still somewhat technical. 
 
-## What will my questions look like if I use QuestionMark?
+## What will your questions look like if you use QuestionMark?
 
 Here is a sample.
 
 	(in preparation)
 
-## What do I do with the questions?
+## What do you do with the questions?
 
 This repository will provide a Python script to convert your questions to Moodle's XML format. You can import the XML file to Moodle's question bank. Then you need to create a quizz in Moodle that uses the questions from the bank. More details will be available in the manual.
