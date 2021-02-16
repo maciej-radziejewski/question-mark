@@ -16,7 +16,7 @@ The main idea behind this project is to make question preparation easier by allo
 - support question categories,
 - support TeX equations.
 
-# Why would you need QuestionMark?
+## Why would you need QuestionMark?
 
 An online quiz typically requires the teacher to trust the students' honesty. This is not a bad thing, but one should not put such honesty to too great a trial by handing similar sets of questions to multiple students. This makes it necessary to prepare multiple questions or variants of each question. My experience suggests that you need **15-30 questions for a short 15-minute quizz**, and **100+ questions/variants** for a longer quizz of 1 hour or more. Moodle does make it possible to create banks of questions, divided to categories. In a typical quizz each question would be chosen at random from a specified category, independently for each student. Several problems arise when preparing such a quizz.
 
@@ -36,12 +36,12 @@ Splitting a question to several questions will not do if they are to be chosen a
 
 There exist formats such as Aiken (https://docs.moodle.org/310/en/Aiken_format) and GIFT (https://docs.moodle.org/310/en/GIFT_format) that aim to remedy some of the above problems, but not all of them. Aiken is very simple, but, at the time of this writing, it seems to be limited to multiple-choice and True/False questions. GIFT, though more versatile, is still somewhat technical. 
 
-# What will my questions look like if I use QuestionMark?
+## What will my questions look like if I use QuestionMark?
 
 Here is a sample.
 
 	(in preparation)
 
-# What do I do with the questions?
+## What do I do with the questions?
 
 This repository will provide a Python script to convert your questions to Moodle's XML format. You can import the XML file to Moodle's question bank. Then you need to create a quizz in Moodle that uses the questions from the bank. More details will be available in the manual.
