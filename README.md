@@ -5,7 +5,7 @@ QuestionMark is an efficient way to prepare questions for online quizzes. At pre
 - a text file format, inspired by MarkDown, for writing down the questions, and
 - a Python script to convert the questions to a Moodle XML file that you can import to an instance of the Moodle learning management system, cf. https://moodle.org.
 
-If you teach at a school or university that provides a (recent) version of Moodle to its students, you can immediately use QuestionMark.
+If you teach at a school or university that provides (a recent version of) Moodle to its students, and you have (a recent version of) Python 3 installed, you can immediately use QuestionMark.
 
 The main idea behind this project is to make question preparation easier by allowing the author to focus on the contents of the questions, and not on the technical aspects of Moodle. The specific goals of QuestionMark are:
 
