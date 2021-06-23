@@ -22,15 +22,15 @@ An online quiz typically requires the teacher to trust the students' honesty. Th
 
 #### 1. Creating questions using the graphical interface takes a long time.
 
-Of course, it may be different for you. For me it is much quicker to type something in a text editor than to click here and there to create an object, then to fill in this field, click there, select a score from a drop-down box etc. If I change my mind about a small detail concerning, say, 10 questions, it is faster to make such a change in a text file than edit each question in the web editor.
+Of course, it may be different for you. For me it is much quicker to type something in a text editor than to click here and there and fill in separate fields. If I change my mind about a small detail and want to change, say, 10 questions, it is faster to do it in a single text file than open each question in the web editor.
 
-#### 2. Some of Moodle's built-in question types do not support using mathematical formulas in answers (i.e. the options that the student would choose from).
+#### 2. Using mathematical formulas in question answers is limited.
 
-You can use mathematics in question text and in the answers to multiple-choice questions, through a script called MathJax that parses the web page being displayed. However, the HTML specification prevents such rich content in the items displaed in a drop-down box, for example.
+Moodle does allow the use of mathematics through a script called MathJax that parses the web page being displayed. However, this is limited (because the HTML specification) to question text and the answers next to checkboxes and radio buttons. You cannot have formulas in a drop-down box, for example. So, if you want to use a drop-down box, you have to pay attention if one of the options might contain a formula.
 
-#### 3. Some topics require rather complex questions with multiple sub-questions in order to make the test meaningful.
+#### 3. Some topics require rather complex questions with multiple sub-questions.
 
-Splitting a question to several questions will not do if they are to be chosen at random. You could use the (very nice) "drag and drop" or "matching" question types, but these do not support equations in answers. Moreover, if the student gets, say, half of the answers right by chance, they will get 50% points.
+To check if a student understands a complex concept, you need to ask complex questions. Giving just one detail for the student to fill in is like leaving out just one piece of the puzzle: it makes your question prone to guesswork. So, essentially, you have the choice between the "Essay" question type, which needs manual grading (the students upload their answers or type freely), or the Cloze question type with multiple sub-questions. Yes, Moodle does have the (very nice) "drag and drop" and "matching" question types, but these do not support equations in answers. Moreover, with the default grading, if the student gets half of the answers right by chance, they will get 50% points.
 
 #### 4. The "embedded" aka "Cloze" question type is rather flexible and solves problem no. 3, but it requires the teacher to encode questions in a very technical way. The encoded questions are not easy to read and edit.
 
